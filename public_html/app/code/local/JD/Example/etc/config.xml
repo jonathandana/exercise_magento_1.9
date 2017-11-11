@@ -23,14 +23,27 @@
         </helpers>
     </global>
 
-    <fronend>
-        <routers>
+    <frontend>
+        <!--<routers>-->
+            <!--<example>-->
+                <!--<use>standard</use>-->
+                <!--<args>-->
+                    <!--<frontName>example</frontName>-->
+                    <!--<module>JD_Example</module>-->
+                <!--</args>-->
+            <!--</example>-->
+
+        <!--</routers>-->
+       <routers>
             <example>
                 <use>standard</use>
-                <frontName>example</frontName>
-                <module>JD_Example</module>
+                <args>
+                    <frontName>example</frontName>
+                    <module>JD_Example</module>
+                </args>
             </example>
         </routers>
-    </fronend>
-    
+
+    </frontend>
+
 </config>
