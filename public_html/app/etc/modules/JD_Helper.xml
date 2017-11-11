@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+    <JD_Example>
+        <active>true</active>
+        <codePool>core</codePool>
+        <depends/>
+    </JD_Example>
+</modules>
+</config>
