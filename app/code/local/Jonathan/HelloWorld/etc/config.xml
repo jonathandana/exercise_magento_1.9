@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Jonathan_HelloWorld>
+      <version>0.1.0</version>
+    </Jonathan_HelloWorld>
+  </modules>
+  <global>
+    <helpers>
+      <helloworld>
+        <class>Jonathan_HelloWorld_Helper</class>
+      </helloworld>
+    </helpers>
+  </global>
+</config> 

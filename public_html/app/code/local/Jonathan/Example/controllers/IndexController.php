@@ -1,5 +1,5 @@
 <?php
-class JD_Example_IndexController extends Mage_Core_Controller_Front_Action{
+class Jonathan_HelloWorld_IndexController extends Mage_Core_Controller_Front_Action{
 
     /**
      *
