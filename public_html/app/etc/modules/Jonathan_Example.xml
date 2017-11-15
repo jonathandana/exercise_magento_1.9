@@ -3,8 +3,8 @@
 <modules>
     <Jonathan_Example>
         <active>true</active>
-        <codePool>core</codePool>
-        <depends/>
+        <codePool>local</codePool>
+        <version>0.1.0</version>
     </Jonathan_Example>
 </modules>
 </config>

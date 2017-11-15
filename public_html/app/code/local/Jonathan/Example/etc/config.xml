@@ -1,42 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
+
+<!--<config>-->
+    <!--<modules>-->
+        <!--<Jonathan_Example>-->
+            <!--<version>0.0.1</version>-->
+        <!--</Jonathan_Example>-->
+    <!--</modules>-->
+
+    <!--<global>-->
+        <!--<models>-->
+            <!--<example>-->
+                <!--<class>Jonathan_Example_Model</class>-->
+            <!--</example>-->
+        <!--</models>-->
+        <!--<blocks>-->
+            <!--<example>-->
+                <!--<class>Jonathan_Example_Block</class>-->
+            <!--</example>-->
+        <!--</blocks>-->
+        <!--<helpers>-->
+            <!--<example>-->
+                <!--<class>Jonathan_Example_Helper</class>-->
+            <!--</example>-->
+        <!--</helpers>-->
+    <!--</global>-->
+
+    <!--<frontend>-->
+
+       <!--<routers>-->
+            <!--<example>-->
+                <!--<use>standard</use>-->
+                <!--<args>-->
+                    <!--<module>Jonathan_Example</module>-->
+                    <!--<frontName>example</frontName>-->
+                <!--</args>-->
+            <!--</example>-->
+        <!--</routers>-->
+
+    <!--</frontend>-->
+
+<!--</config>-->
+
+
+
 
 <config>
-    <modules>
-        <Jonathan_Example>
-            <version>0.0.1</version>
-        </Jonathan_Example>
-    </modules>
+<modules>
+    <Jonathan_Example>
+        <version>0.1.0</version>
+    </Jonathan_Example>
+</modules>
+<global>
+    <helpers>
+        <helloworld>
+            <class>Jonathan_Example_Helper</class>
+        </helloworld>
+    </helpers>
+</global>
+<frontend>
 
-    <global>
-        <models>
-            <example>
-                <class>Jonathan_Example_Model</class>
-            </example>
-        </models>
-        <blocks>
-            <example>
-                <class>Jonathan_Example_Block</class>
-            </example>
-        </blocks>
-        <helpers>
-            <example>
-                <class>Jonathan_Example_Helper</class>
-            </example>
-        </helpers>
-    </global>
+    <routers>
+        <example>
+            <use>standard</use>
+            <args>
+                <module>Jonathan_Example</module>
+                <frontName>example</frontName>
+            </args>
+        </example>
+    </routers>
 
-    <frontend>
-
-       <routers>
-            <example>
-                <use>standard</use>
-                <args>
-                    <module>Jonathan_Example</module>
-                    <frontName>example</frontName>
-                </args>
-            </example>
-        </routers>
-
-    </frontend>
-
+</frontend>
 </config>

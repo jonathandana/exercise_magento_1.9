@@ -1,5 +1,5 @@
 <?php
-class Jonathan_HelloWorld_Helper_Data extends Mage_Core_Helper_Abstract
+class Jonathan_Example_Helper extends Mage_Core_Helper_Abstract
 {
 }
 	 
